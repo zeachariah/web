@@ -1,0 +1,46 @@
+
+
+#one{
+	list-style-type: none;
+	text-align: center;
+	color: white;
+	margin-top: 20px;
+}
+#one>li{
+	display: block;
+	float: left;
+	height: 50px;
+	width: 160px;
+	border: 1px white solid;
+	background-color: rgb(59, 60, 142);
+	line-height: 50px;
+}
+#one ul{
+	margin-top: 1px;	
+	display: none;
+	height: auto;
+	width: 160px;
+	padding-left: 0;
+}
+#one ul li{
+	position: relative;
+	float: none;
+	display: block;
+	height: 50px;
+	text-align: center;
+}
+#two{
+	background-color: rgb(54, 128, 38)!important;
+}
+#two ul li:nth-child(odd){
+	background-color: rgb(61, 60, 142);
+	margin-top: 2px;
+}
+#two ul li:nth-child(even){
+	background-color: rgb(54, 128, 38);
+	margin-top: 2px;
+	
+}
+#two:hover > ul{
+	display: block;
+}
